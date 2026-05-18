@@ -17,9 +17,24 @@
     
     <hr>
     
-    <h3>Scenario Drill Area</h3>
+    <h2>Scenario 1: Enterprise Floodlight Click</h2>
     <button id="mock-purchase-btn" style="padding: 10px 20px; background-color: #0c2340; color: white; border: none; cursor: pointer;">
         Simulate $749 Patio Purchase
     </button>
+
+    <hr>
+
+    <h2>Scenario 2: Telephone Lead Tracking</h2>
+    <p>Call our support line: <a id="phone-track-link" href="tel:8004456937" style="color: #0c2340; font-weight: bold;">1-800-44-LOWES</a></p>
+
+    <hr>
+
+    <h2>Scenario 3: Lead Form Submission</h2>
+    <form id="sandbox-lead-form" onsubmit="event.preventDefault(); alert('Form Submitted Successfuly!');">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="manager@lowes.com">
+        <button type="submit" style="padding: 5px 10px; background-color: #0076a3; color: white; border: none; cursor: pointer;">Submit Lead</button>
+    </form>
+
 </body>
 </html>
